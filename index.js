@@ -9,11 +9,3 @@ let string = [`${nome},´${sobrenome},${email}`];
 fs.writeFile('teste.txt', string, function(){
     console.log(string);
 });
-
-
-
-
-
-
-
-
